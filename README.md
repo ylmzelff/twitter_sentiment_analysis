@@ -246,8 +246,6 @@ What I did (key setup from the notebook):
 
 ### Numeric results (from my run)
 
-# COMPREHENSIVE PERFORMANCE SUMMARY
-
 🎯 Test Accuracy : 0.8631 (86.31%)
 
 🎯 Test F1-Score : 0.8630
