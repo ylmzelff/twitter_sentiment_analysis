@@ -41,7 +41,7 @@ Finally, I store the cleaned text in a new column in the dataset (in the noteboo
 
 I generate a WordCloud from the cleaned text to visualize frequent terms. The notebook saves the image when the plotting cell runs. Example path I used in the notebook:
 
-![alt text](image.png)
+![WordCloud](output.png)
 
 ## Explanation of First Notebook
 
@@ -53,8 +53,8 @@ I ran evaluation and comparison code in `notebooks/ml-modeling.ipynb` which prod
 
 ## Results images
 
-![alt text](image-1.png)
-![alt text](image-2.png)
+![ML Results](output1.png)
+![ML Comparison](output2.png)
 
 ## Explanation of Second Notebook
 
@@ -206,9 +206,9 @@ weighted avg     0.8610    0.8593    0.8591    160000
 
 This BERT model achieved **85.93% test accuracy** and **85.91% macro F1-score**, which is significantly higher than the LSTM/BiLSTM results (~78-79%). The precision and recall are well-balanced for both classes (negative and positive sentiment).
 
-![alt text](image-3.png)
+![BERT Results](output3.png)
 
-![alt text](image-4.png)
+![BERT Training](output4.png)
 
 ## Fourth Notebook: DeBERTa-v3 Fine-tuning — `notebooks/sentiment-analysis-debarta-v3.ipynb`
 
@@ -261,4 +261,4 @@ Positive: Precision=0.8825, Recall=0.8358, F1=0.8585
 
 This DeBERTa-v3 model achieved **86.31% test accuracy** and **86.30% F1-score**, representing the **highest performance** among all my experiments. The **93.84% ROC-AUC** indicates excellent discrimination capability. Despite training for only 1 epoch (due to aggressive early stopping), it outperformed both BERT (~85.9%) and RNN models (~78-79%). The model shows excellent generalization with consistent validation-test performance.
 
-![alt text](image-5.png)
+![DeBERTa Results](image-5.png)
