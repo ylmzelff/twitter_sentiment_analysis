@@ -41,7 +41,7 @@ Finally, I store the cleaned text in a new column in the dataset (in the noteboo
 
 I generate a WordCloud from the cleaned text to visualize frequent terms. The notebook saves the image when the plotting cell runs. Example path I used in the notebook:
 
-![WordCloud](output.png)
+![WordCloud](results/output.png)
 
 ## Explanation of First Notebook
 
@@ -53,8 +53,8 @@ I ran evaluation and comparison code in `notebooks/ml-modeling.ipynb` which prod
 
 ## Results images
 
-![ML Results](output1.png)
-![ML Comparison](output2.png)
+![ML Results](results/output1.png)
+![ML Comparison](results/output2.png)
 
 ## Explanation of Second Notebook
 
@@ -206,9 +206,9 @@ weighted avg     0.8610    0.8593    0.8591    160000
 
 This BERT model achieved **85.93% test accuracy** and **85.91% macro F1-score**, which is significantly higher than the LSTM/BiLSTM results (~78-79%). The precision and recall are well-balanced for both classes (negative and positive sentiment).
 
-![BERT Results](output3.png)
+![BERT Results](results/output3.png)
 
-![BERT Training](output4.png)
+![BERT Training](results/output4.png)
 
 ## Fourth Notebook: DeBERTa-v3 Fine-tuning — `notebooks/sentiment-analysis-debarta-v3.ipynb`
 
@@ -262,4 +262,4 @@ What I did (key setup from the notebook):
 Negative: Precision=0.8460, Recall=0.8901, F1=0.8675
 Positive: Precision=0.8825, Recall=0.8358, F1=0.8585
 
-![DeBERTa Results](image-5.png)
+![DeBERTa Results](results/image-5.png)
