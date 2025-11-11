@@ -249,16 +249,19 @@ What I did (key setup from the notebook):
 # COMPREHENSIVE PERFORMANCE SUMMARY
 
 🎯 Test Accuracy : 0.8631 (86.31%)
+
 🎯 Test F1-Score : 0.8630
+
 🎯 Test ROC AUC : 0.9384 (93.84%)
+
 📈 Best Val Accuracy: 0.8635
+
 ⏱️ Training Epochs : 1
+
 🎛️ Model Parameters : 184,423,682
 
 📋 Per-Class Performance:
 Negative: Precision=0.8460, Recall=0.8901, F1=0.8675
 Positive: Precision=0.8825, Recall=0.8358, F1=0.8585
-
-This DeBERTa-v3 model achieved **86.31% test accuracy** and **86.30% F1-score**, representing the **highest performance** among all my experiments. The **93.84% ROC-AUC** indicates excellent discrimination capability. Despite training for only 1 epoch (due to aggressive early stopping), it outperformed both BERT (~85.9%) and RNN models (~78-79%). The model shows excellent generalization with consistent validation-test performance.
 
 ![DeBERTa Results](image-5.png)
